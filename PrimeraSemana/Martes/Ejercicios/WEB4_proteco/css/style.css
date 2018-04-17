@@ -1,0 +1,21 @@
+div{
+	width:100px;
+	height:100px;
+	background-color: purple;
+	font-size: 30px;
+	margin:5px;
+	color: yellow;
+}
+
+.cajaPadre{
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	position: relative;
+	/*position: absolute; -> lo marca como un elemento de bloques*/
+}
+
+.caja{
+	/*position: static*/;
+	position: fixed; /*cuando querramos que nuestro nav bar se quede fijo hasta arriba -> con fixed, el elemento no se mueve a pesar del scroll
+}
