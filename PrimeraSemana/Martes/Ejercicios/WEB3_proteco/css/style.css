@@ -1,0 +1,27 @@
+#padding{
+	color: blue;
+	background-color: yellow;
+	/*padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 50px;*/
+	padding: 50px 70px 80px 15px;
+}
+#border{
+	color: white;
+	background-color: red;
+	border:50px solid black;
+	margin:0px;
+}
+#margin{
+	margin: 0px 150px 15px 30px;
+	color: blue;
+	background-color: grey;
+}
+
+#photo{
+	background-color: orange;
+	margin: 0px 70px 15px 70px;
+	border:10px solid black;
+	padding: 50px 70px 50px 70px;
+}
