@@ -1,0 +1,188 @@
+p{
+	width: 80%;
+	text-align: center;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px){
+	body{
+		background: gray;	
+		margin: 0px;
+	}
+	.header{
+		padding-bottom: 20px;
+		background-color: orange;
+	}
+	.navBar{
+	margin: 0px 150px 15px 0px;
+	position: absolute;
+	width: 100%;
+	height: 5	0px;
+	background-color: #86EA1B; opacity: 0..3; filter: alpha(opacity=50);
+	}
+	.navBar ul li{
+		margin-left: 140px;
+		display: inline;
+
+	}
+	.navBar a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+
+	}
+	.navBar li:hover a{
+		color: gray;
+		font-size: 25px;
+		position: relative;
+	}
+
+	.photos{
+		margin-top: 40px;
+		margin-left: 50px;
+
+	}
+
+	.meade{
+
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+
+	.anaya{
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+
+	.zavala{
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+
+	.candidatosTitulo{
+		margin-top: 100px;
+		color: black;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px){
+	body{
+		
+		margin: 0px;
+		background: gray;
+	}
+
+	.header{
+		padding-bottom: 20px;
+		background-color: orange;
+		width: 100%;
+	}
+	.navBar{
+		margin: 0px 200px 15px 0px;
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		background-color: #86EA1B; opacity: 0..3; filter: alpha(opacity=50);
+	}
+	.navBar ul li{
+		margin-left: 40px;
+		display: inline;
+
+	}
+	.navBar a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+
+	}
+	.navBar li:hover a{
+		color: gray;
+		font-size: 25px;
+		position: relative;
+	}
+
+	.photos{
+		margin-top: 40px;
+		margin-left: 300px;
+
+	}
+
+	.meade{
+		margin-top: 40px;
+		margin-left: 300px;
+	}
+
+	.anaya{
+		margin-top: 40px;
+		margin-left: 300px;
+	}
+
+	.zavala{
+		margin-top: 40px;
+		margin-left: 300px;
+	}
+	.candidatosTitulo{
+		margin-top: 100px;
+		color: black;
+	}
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+	body{
+		background-color: gray;
+		margin: 0px;
+	}
+
+	.header{
+		padding-bottom: 20px;
+		background-color: orange;
+		width: 100%;
+	}
+	.navBar{
+		margin: 0px 200px 0px 0px;
+		position: absolute;
+		height: 60px;
+		width: 100%;
+		background-color: #86EA1B; opacity: 0..3; filter: alpha(opacity=50);
+	}
+	.navBar ul li{
+		margin-left: 10px;
+		display: inline;
+	}
+	.navBar a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+
+	}
+	.navBar li:hover a{
+		color: gray;
+		font-size: 25px;
+		position: relative;
+	}
+
+	.candidatosTitulo{
+		margin-top: 80px;
+		color: black;
+	}
+
+	.photos{
+		margin-top: 40px;
+		margin-left: 70px;
+
+	}
+
+	.meade{
+		margin-top: 40px;
+		margin-left: 70px;
+	}
+
+	.anaya{
+		margin-top: 40px;
+		margin-left: 70px;
+	}
+
+	.zavala{
+		margin-top: 40px;
+		margin-left: 70px;
+	}
+}
